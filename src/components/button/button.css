@@ -1,0 +1,35 @@
+@tailwind components;
+
+@layer components {
+  .button {
+    @apply font-sans text-center rounded-lg cursor-pointer motion-safe:transition-colors;
+
+    &:focus {
+      @apply border-none outline-none;
+    }
+
+    &.primary {
+      @apply text-white bg-blue-600 hover:bg-blue-500;
+    }
+
+    &.secondary {
+      @apply text-blue-600 bg-white ring ring-blue-600 hover:bg-blue-100;
+    }
+
+    &.small {
+      @apply w-64 py-2 text-base;
+    }
+
+    &.medium {
+      @apply py-3 text-base w-72;
+    }
+
+    &.large {
+      @apply py-4 text-lg w-80;
+    }
+
+    &:disabled {
+      @apply cursor-default bg-blue-200 !important;
+    }
+  }
+}
