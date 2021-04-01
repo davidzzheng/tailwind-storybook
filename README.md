@@ -1,26 +1,35 @@
-# Storybook w/ Tailwind
+# Breeze - TailwindCSS Storybook React Starter
 
-This is an experimental development environment that leverages the next version of Storybook (6.2) with Tailwind (via `@storybook/addon-postcss`), TailwindCSS JIT compilation, and Webpack 5.
+Breeze is a component development environment that fully leverages the newest version of Storybook (6.2) with Tailwind (via `@storybook/addon-postcss`), TailwindCSS JIT compilation, and Webpack 5.
 
 ## Why
 
-[Storybook](https://storybook.js.org/) is a tool for developing UI components in isolation using React. [Tailwind](https://tailwindcss.com/) is a utility-first CSS framework that generates classes that can be composed to implement any design. Together, these libraries can create a robust development environment that enables engineers to rapidly implement UI components, no matter the complexity, in isolation with the advantage of low-level composability via Tailwind's utility classes.
+[Storybook](https://storybook.js.org/) is a tool for developing UI components in isolation using React (or any other UI framework supported by Storybook). [Tailwind](https://tailwindcss.com/) is a utility-first CSS framework that generates classes that can be composed to implement any design. Together, these libraries create a robust development environment that enables developers to rapidly implement UI components, no matter the complexity, in isolation with the advantage of atomic composability via Tailwind's utility classes.
 
 ## Features
 
-- Storybook 6.2 with PostCSS 8 & Webpack 5 support
-- [TailwindCSS JIT](https://github.com/tailwindlabs/tailwindcss-jit)
-- [Tailwind IntelliSense](https://tailwindcss.com/docs/intellisense)
-- Purgeable CSS classes
-- Storybook deployed to [GitHub pages](https://davidzzheng.github.io/tailwind-storybook/) via [GitHub Actions](.github\workflows\deploy_storybook.yml)
+- Support for the latest Storybook features
+- Sub-second updates with [TailwindCSS JIT](https://github.com/tailwindlabs/tailwindcss-jit)
+- [Tailwind IntelliSense](https://tailwindcss.com/docs/intellisense) support
+- CSS nesting rules
+- Automatic Storybook deployment to [GitHub pages](https://davidzzheng.github.io/tailwind-storybook/) via [GitHub Actions](.github/workflows/deploy_storybook.yml)
 
 ## Setup
 
-1. `yarn`
-2. `yarn storybook`
-3. http://localhost:6006
+```
+> yarn install
+> yarn storybook
+```
+
+## What's Next?
+
+- Extend the base Tailwind configuration to your liking
+- Build & publish your components with the bundler of your choice
+- Add a testing framework
+- Implement a CI/CD pipeline with tools like [Chromatic](https://www.chromatic.com/)
 
 ## Resources
 
-- https://tailwindcss.com/
-- https://github.com/aniftyco/awesome-tailwindcss
+- [TailwindCSS](https://tailwindcss.com)
+- [TailwindCSS JIT](https://github.com/tailwindlabs/tailwindcss-jit)
+- [Storybook](https://storybook.js.org)
