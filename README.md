@@ -1,4 +1,4 @@
-# Breeze - TailwindCSS Storybook React Starter
+# TailwindCSS Storybook React Starter
 
 Breeze is a component development environment that integrates the latest version of Storybook (6.2) with Tailwind (via `@storybook/addon-postcss`), TailwindCSS JIT compilation, and Webpack 5.
 
@@ -12,7 +12,7 @@ Breeze is a component development environment that integrates the latest version
 - Sub-second updates with [TailwindCSS JIT](https://github.com/tailwindlabs/tailwindcss-jit)
 - [Tailwind IntelliSense](https://tailwindcss.com/docs/intellisense) support
 - CSS nesting rules
-- Automatic Storybook deployment to [GitHub pages](https://davidzzheng.github.io/breeze/) via [GitHub Actions](.github/workflows/deploy_storybook.yml)
+- Automatic Storybook deployment to [GitHub pages](https://davidzzheng.github.io/tailwind-storybook/) via [GitHub Actions](.github/workflows/deploy_storybook.yml)
 
 ## Setup
 
