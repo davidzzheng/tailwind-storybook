@@ -1,6 +1,6 @@
 # TailwindCSS Storybook React Starter
 
-Breeze is a component development environment that integrates the latest version of Storybook (6.2) with Tailwind (via `@storybook/addon-postcss`), TailwindCSS JIT compilation, and Webpack 5.
+This project is a component development environment that integrates the latest version of Storybook (6.2) with Tailwind (via `@storybook/addon-postcss`), TailwindCSS JIT compilation, and Webpack 5.
 
 ## Why
 
