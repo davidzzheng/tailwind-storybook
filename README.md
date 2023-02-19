@@ -1,3 +1,5 @@
+Better version: https://github.com/davidzzheng/s7orybook
+
 # TailwindCSS Storybook React Starter
 
 This project is a component development environment that integrates the latest version of Storybook (6.2) with Tailwind (via `@storybook/addon-postcss`), TailwindCSS JIT compilation, and Webpack 5.
